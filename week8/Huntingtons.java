@@ -17,14 +17,12 @@ public class Huntingtons {
             if (currCodon.equals("CAG")) {
                 count += 1;
                 i += 3;
-                if (count > maxCount) maxCount = count; // Handling tail case
+                if (count > maxCount) maxCount = count;
             }
             else {
-                // if (count > maxCount) maxCount = count; // Non tail case
                 count = 0;
                 i += 1;
             }
-            // System.out.println("count: " + count + " maxCount: " + maxCount);
         }
         return maxCount;
     }
