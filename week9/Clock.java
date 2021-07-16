@@ -72,14 +72,14 @@ public class Clock {
     public void toc(int delta) {
         if (delta < 0)
             throw new IllegalArgumentException("Negative delta");
+        
         minute += delta;
+        
         if (minute >= 60) {
             int addHour = Math.floorDiv(minute, 60);
             hour += addHour;
             minute = minute % 60;
-            if (hour > 23) {
-                hour = hour % 24;
-            }
+            if (hour > 23) hour = hour % 24;
         }
     }
 
