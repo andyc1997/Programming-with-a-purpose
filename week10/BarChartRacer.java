@@ -45,9 +45,8 @@ public class BarChartRacer {
         while (inputFile.hasNextLine()) {
             // countHasNextLine++;
             line = inputFile.readLine(); // Read a line
-            if (line.length() == 0) {
-                line = inputFile.readLine(); // Skip empty line
-            }
+            if (line.length() == 0) line = inputFile.readLine(); // Skip empty line
+            
             // Read number of records
             if (i == counter) {
                 // Start a new block
