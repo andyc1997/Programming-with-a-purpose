@@ -2,7 +2,7 @@
 
 Description: A repository for MOOC ["Computer Science: Programming with a Purpose"](https://www.coursera.org/learn/cs-programming-java/), written in Java
 
-Week 1: Basic Programming Concepts
+Week 1: [Basic Programming Concepts](Week1/)
 
 Week 2: Conditionals and Loops
 
