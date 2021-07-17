@@ -4,7 +4,7 @@ Description: A repository for MOOC ["Computer Science: Programming with a Purpos
 
 Week 1: [Basic Programming Concepts](week1)
 
-Week 2:[Conditionals and Loops](week2)
+Week 2: [Conditionals and Loops](week2)
 
 Week 3: [Arrays](week3)
 
@@ -21,3 +21,7 @@ Week 8: [Abstract Data Types](week8)
 Week 9: [Creating Data Types](week9)
 
 Week 10: [Programming Languages](week10)
+
+# Reference Site
+
+[https://introcs.cs.princeton.edu/java/home/](https://introcs.cs.princeton.edu/java/home/)
